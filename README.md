@@ -3,8 +3,8 @@
 <p align="center">
     <img src="https://travis-ci.org/symfony/symfony.svg" alt="Build Status">
     <img src="https://img.shields.io/packagist/v/symfony/symfony" alt="Latest Stable Version">
-    <img src="https://img.shields.io/github/commit-activity/y/dkaerit/your-repo?color=blueviolet">
-    <img src="https://img.shields.io/github/downloads/dkaerit/your-repo/total?color=blueviolet">
+    <img src="https://img.shields.io/github/commit-activity/y/dkaerit/symfony-api-rest?color=blueviolet">
+    <img src="https://img.shields.io/github/downloads/dkaerit/symfony-api-rest/total?color=blueviolet">
     <img src="https://img.shields.io/badge/license-MIT-blueviolet" alt="License">
 </p>
 
