@@ -26,3 +26,23 @@ Este es un proyecto de ejemplo desarrollado con Symfony, un framework de aplicac
 4. Configura las variables de entorno en el archivo `.env`
 5. Si usas un servidor web como nginx: Configura tu servidor web para apuntar al directorio `public/` como el punto de entrada de la aplicación.
 
+# 4. Arrancar el servidor
+
+a) Usando symfony
+```bash
+symfony server:start
+```
+
+b) Usando php
+```bash
+php -S localhost:8000 -t public
+```
+
+c) Usando Docker y Nginx:
+Asegúrate de tener Docker instalado en tu sistema.
+
+```bash
+docker build -t my-symfony-app .
+docker run -d -p 8000:80 my-symfony-app
+```
+
