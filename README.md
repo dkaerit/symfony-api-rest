@@ -8,6 +8,16 @@
     <img src="https://img.shields.io/badge/license-MIT-blueviolet" alt="License">
 </p>
 
+## Índice
+
+1. [Descripción](#descripción)
+2. [Requisitos previos](#requisitos-previos)
+3. [Instalación](#instalación)
+4. [Arrancar el servidor](#arrancar-el-servidor)
+5. [Uso](#uso)
+6. [Contribución](#contribución)
+7. [Licencia](#licencia)
+
 # 1. Descripción
 
 Este es un proyecto de ejemplo desarrollado con Symfony, un framework de aplicaciones web en PHP. El proyecto implementa una API REST para la gestión de usuarios, incluyendo autenticación basada en tokens JWT.
@@ -45,4 +55,12 @@ Asegúrate de tener Docker instalado en tu sistema.
 docker build -t my-symfony-app .
 docker run -d -p 8000:80 my-symfony-app
 ```
+
+5. Uso
+En la ruta "/" aparecerán los endpoints.
+
+6. Contribución
+Si deseas contribuir a este proyecto, siéntete libre de abrir un PR (Pull Request) con tus mejoras o correcciones.
+
+Recuerda que estos son solo ejemplos de contenido y puedes personalizarlos según las necesidades y la estructura específica de tu proyecto. Además, asegúrate de proporcionar información adicional relevante, como requisitos adicionales, configuraciones especiales, bases de datos utilizadas, entre otros.
 
