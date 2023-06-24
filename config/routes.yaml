@@ -3,3 +3,28 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+app_user_read:
+    path: /user/read/{id}
+    controller: App\Controller\UserController::read
+    methods: GET
+
+app_user_read_all:
+    path: /user/read
+    controller: App\Controller\UserController::readAll
+    methods: GET
+
+app_user_update:
+    path: /user/update
+    controller: App\Controller\UserController::update
+    methods: POST
+
+app_user_delete:
+    path: /user/delete
+    controller: App\Controller\UserController::delete
+    methods: POST
+
+app_user_create:
+    path: /user/create
+    controller: App\Controller\UserController::create
+    methods: POST
