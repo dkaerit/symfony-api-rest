@@ -1,3 +1,10 @@
-# symfony-api-rest
-Aplicación API REST basado en el framework Symfony.
 ![symfony cartel](https://github.com/dkaerit/symfony-api-rest/assets/24440929/0e28af89-cdce-4c92-acf9-bccca14ac3f6)
+
+<p align="center">
+    <img src="https://travis-ci.org/symfony/symfony.svg" alt="Build Status">
+    <img src="https://img.shields.io/packagist/v/symfony/symfony" alt="Latest Stable Version">
+    <img src="https://img.shields.io/github/commit-activity/y/your-username/your-repo?color=blueviolet">
+    <img src="https://img.shields.io/github/downloads/your-username/your-repo/total?color=blueviolet">
+    <img src="https://img.shields.io/badge/license-MIT-blueviolet" alt="License">
+</p>
+
