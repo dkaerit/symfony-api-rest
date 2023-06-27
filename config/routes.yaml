@@ -4,27 +4,31 @@ controllers:
         namespace: App\Controller
     type: attribute
 
+index:
+    path: /
+    controller: App\Controller\ApiController::index
+
 app_user_read:
-    path: /user/read/{id}
+    path: /users/read/{id}
     controller: App\Controller\UserController::read
     methods: GET
 
 app_user_read_all:
-    path: /user/read
+    path: /users/read
     controller: App\Controller\UserController::readAll
     methods: GET
 
 app_user_update:
-    path: /user/update
+    path: /users/update
     controller: App\Controller\UserController::update
     methods: POST
 
 app_user_delete:
-    path: /user/delete
+    path: /users/delete
     controller: App\Controller\UserController::delete
     methods: POST
 
 app_user_create:
-    path: /user/create
+    path: /users/create
     controller: App\Controller\UserController::create
     methods: POST
