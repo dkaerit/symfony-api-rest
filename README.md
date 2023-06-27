@@ -24,9 +24,9 @@ Este es un proyecto de ejemplo desarrollado con Symfony, un framework de aplicac
 
 # 2. Requisitos previos
 
-- PHP >= 7.2
+- PHP >= 8.1 (habilitado extension=zip en php.ini)
 - Composer
-- Opcionalmente, servidor web (Apache, Nginx, etc.)
+- Symfony
 
 # 3. Instalación
 
