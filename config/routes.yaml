@@ -8,27 +8,29 @@ index:
     path: /
     controller: App\Controller\ApiController::index
 
-app_user_read:
+create_user:
+    path: /users/create
+    controller: App\Controller\UserController::create
+    methods: POST
+
+read_user:
     path: /users/read/{id}
     controller: App\Controller\UserController::read
     methods: GET
 
-app_user_read_all:
+read_users:
     path: /users/read
     controller: App\Controller\UserController::readAll
     methods: GET
 
-app_user_update:
+update_user:
     path: /users/update
     controller: App\Controller\UserController::update
     methods: POST
 
-app_user_delete:
+delete_user:
     path: /users/delete
     controller: App\Controller\UserController::delete
     methods: POST
 
-app_user_create:
-    path: /users/create
-    controller: App\Controller\UserController::create
-    methods: POST
+

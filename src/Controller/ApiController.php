@@ -16,11 +16,11 @@ class ApiController extends AbstractController
     {
         // Obtener la lista de endpoints de la API
         $endpoints = [
-            '/api/users/read/{id}',
-            '/api/users/read',
-            '/api/users/update',
-            '/api/users/delete',
-            '/api/users/create',
+            '/users/read/{id}',
+            '/users/read',
+            '/users/update',
+            '/users/delete',
+            '/users/create',
             // Agrega aquí otros endpoints de la API
         ];
 
