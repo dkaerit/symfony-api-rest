@@ -8,6 +8,9 @@ index:
     path: /
     controller: App\Controller\ApiController::index
 
+api_login_check:
+    path: /api/login_check
+
 create_user:
     path: /users/create
     controller: App\Controller\UserController::create
